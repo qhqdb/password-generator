@@ -1,4 +1,3 @@
-var availableCharacters = []
 var lowercaseLetters = "abcdefghijklmnopqrstuvwxyz"
 var uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 var numbers = "0123456789"
@@ -7,6 +6,7 @@ var specialCharacters = "~!@#$%^&*()-_=+<>?,./"
 var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
+  var availableCharacters = []
   var password = ""
   var length = prompt("Password Length?");
 
